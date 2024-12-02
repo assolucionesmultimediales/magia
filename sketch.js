@@ -1,7 +1,7 @@
 let deathStar;
 
 function setup() {
-  createCanvas(2277, 1900, WEBGL); // Crea un canvas en 3D con p5.js
+  createCanvas(2275, 1205, WEBGL); // Crea un canvas en 3D con p5.js
 
   // Define una esfera base (el "cuerpo" del ojo o Death Star)
   deathStar = csg(() => sphere(100)) // Esfera principal con radio de 80
